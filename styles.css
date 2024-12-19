@@ -32,13 +32,13 @@ nav {
     justify-content: space-between;
     max-width: var(--max-page-width);
     width: 100%;
-    padding: 1rem;
+    padding: 1em;
 }
 
 main {
     max-width: var(--max-page-width);
     width: 100%;
-    padding: 1rem;
+    padding: 1em;
 }
 
 a {
@@ -74,27 +74,27 @@ h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 h5 {
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 h6 {
-    font-size: 0.9rem;
+    font-size: 0.9em;
 }
 
 img {
@@ -108,8 +108,8 @@ img {
 blockquote {
     color: #666666;
     margin: 0;
-    padding-left: 3rem;
-    border-left: 0.5rem #EEE solid;
+    padding-left: 3em;
+    border-left: 0.5em #EEE solid;
 }
 
 hr {
@@ -117,7 +117,7 @@ hr {
     height: 2px;
     border: 0;
     border-top: 1px solid #aaa;
-    margin: 3rem 0;
+    margin: 3em 0;
     padding: 0;
 }
 
@@ -125,7 +125,7 @@ pre, code, kbd, samp {
     color: #000;
     font-family: monospace, monospace;
     _font-family: 'courier new', monospace;
-    font-size: 0.98rem;
+    font-size: 0.98em;
 }
 
 pre {
@@ -163,20 +163,20 @@ sub, sup {
 }
 
 sup {
-    top: -0.5rem;
+    top: -0.5em;
 }
 
 sub {
-    bottom: -0.25rem;
+    bottom: -0.25em;
 }
 
 ul, ol {
-    margin: 1rem 0;
-    padding: 0 0 0 2rem;
+    margin: 1em 0;
+    padding: 0 0 0 2em;
 }
 
 li {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.25em;
 }
 
 li:last-child p:last-child {
@@ -188,16 +188,16 @@ ul ul, ol ol {
 }
 
 dl {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 dt {
     font-weight: bold;
-    margin-bottom: .8rem;
+    margin-bottom: .8em;
 }
 
 dd {
-    margin: 0 0 .8rem 2rem;
+    margin: 0 0 .8em 2em;
 }
 
 dd:last-child {
@@ -209,7 +209,7 @@ dd:last-child {
 
 .links {
     display: flex;
-    gap: 1rem;
+    gap: 1em;
 }
 
 
