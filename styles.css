@@ -21,11 +21,11 @@ body {
     width: 100%;
     color: rgb(68, 68, 68);
     text-align: justify;
+    line-height: 1.7;
 }
 
 body * {
     box-sizing: border-box;
-    line-height: 1.7;
 }
 
 nav {
