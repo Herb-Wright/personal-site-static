@@ -1,5 +1,5 @@
 :root {
-    --max-page-width: 1000px;
+    --max-page-width: 800px;
 
     --dark-gray: rgb(20, 20, 20);
     --rose-200: #FECDD3;
@@ -18,13 +18,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     color: rgb(68, 68, 68);
     text-align: justify;
 }
 
 body * {
     box-sizing: border-box;
+    line-height: 1.7;
 }
 
 nav {
@@ -33,6 +34,7 @@ nav {
     max-width: var(--max-page-width);
     width: 100%;
     padding: 1em;
+    margin-bottom: 1em;
 }
 
 main {
@@ -65,7 +67,7 @@ a:active {
 h1, h2, h3, h4, h5, h6 {
     color: var(--dark-gray);
     line-height: 125%;
-    margin-top: 2rem;
+    margin-top: 2em;
     font-weight: normal;
 }
 
@@ -117,8 +119,12 @@ hr {
     height: 2px;
     border: 0;
     border-top: 1px solid #aaa;
-    margin: 3em 0;
+    margin: 4em 0;
     padding: 0;
+}
+
+p {
+    margin: 1em 0;
 }
 
 pre, code, kbd, samp {
@@ -204,7 +210,9 @@ dd:last-child {
     margin-bottom: 0;
 }
 
-
+.title {
+    margin-top: 0.5em;
+}
 
 
 .links {
