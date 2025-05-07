@@ -14,14 +14,16 @@
 body {
     font-family: "Noto Sans", sans-serif;
     font-size: 12px;
-    margin: 0;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     color: rgb(68, 68, 68);
     text-align: justify;
     line-height: 1.7;
+    padding: 1em;
+    padding-bottom: 10rem;
+    max-width: var(--max-page-width);
 }
 
 body * {
@@ -31,16 +33,12 @@ body * {
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: var(--max-page-width);
     width: 100%;
-    padding: 1em;
     margin-bottom: 1em;
 }
 
 main {
-    max-width: var(--max-page-width);
     width: 100%;
-    padding: 1em;
 }
 
 a {
