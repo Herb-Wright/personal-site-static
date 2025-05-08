@@ -1,7 +1,7 @@
 :root {
     --max-page-width: 800px;
 
-    --dark-gray: rgb(20, 20, 20);
+    --dark-gray: #141414;
     --rose-200: #FECDD3;
     --rose-300: #FDA4AF;
     --rose-400: #FB7185;
@@ -118,7 +118,7 @@ hr {
     height: 2px;
     border: 0;
     border-top: 1px solid #aaa;
-    margin: 4em 0;
+    margin: 4em -1em;
     padding: 0;
 }
 
@@ -229,6 +229,10 @@ dd:last-child {
 @media only screen and (min-width: 768px) {
     body {
         font-size: 16px;
+    }
+
+    hr {
+        padding: 4em 0;
     }
 }
 
